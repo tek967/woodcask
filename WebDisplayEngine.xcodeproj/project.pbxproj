@@ -24,6 +24,7 @@
 		EC7BE1E725C3E45400A12DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC7BE1EA25C3E45400A12DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC7BE1EC25C3E45400A12DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7BE1F325C3E4F200A12DE9 /* WebDisplayEngine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebDisplayEngine.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		EC7BE1DD25C3E45200A12DE9 /* WebDisplayEngine */ = {
 			isa = PBXGroup;
 			children = (
+				EC7BE1F325C3E4F200A12DE9 /* WebDisplayEngine.entitlements */,
 				EC7BE1DE25C3E45200A12DE9 /* AppDelegate.swift */,
 				EC7BE1E025C3E45200A12DE9 /* SceneDelegate.swift */,
 				EC7BE1E225C3E45200A12DE9 /* ViewController.swift */,
@@ -286,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WebDisplayEngine/WebDisplayEngine.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SED69PSTK5;
 				INFOPLIST_FILE = WebDisplayEngine/Info.plist;
@@ -295,6 +298,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.EasonTek.WebDisplayEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WebDisplayEngine/WebDisplayEngine.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SED69PSTK5;
 				INFOPLIST_FILE = WebDisplayEngine/Info.plist;
@@ -314,6 +319,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.EasonTek.WebDisplayEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

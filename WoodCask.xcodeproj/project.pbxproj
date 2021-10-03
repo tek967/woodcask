@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC7BE1DB25C3E45200A12DE9 /* WebDisplayEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebDisplayEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7BE1DB25C3E45200A12DE9 /* 威士忌社區.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "威士忌社區.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7BE1DE25C3E45200A12DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC7BE1E025C3E45200A12DE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EC7BE1E225C3E45200A12DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		EC7BE1DC25C3E45200A12DE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC7BE1DB25C3E45200A12DE9 /* WebDisplayEngine.app */,
+				EC7BE1DB25C3E45200A12DE9 /* 威士忌社區.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC7BE1DA25C3E45100A12DE9 /* WebDisplayEngine */ = {
+		EC7BE1DA25C3E45100A12DE9 /* 威士忌社區 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC7BE1EF25C3E45400A12DE9 /* Build configuration list for PBXNativeTarget "WebDisplayEngine" */;
+			buildConfigurationList = EC7BE1EF25C3E45400A12DE9 /* Build configuration list for PBXNativeTarget "威士忌社區" */;
 			buildPhases = (
 				EC7BE1D725C3E45100A12DE9 /* Sources */,
 				EC7BE1D825C3E45100A12DE9 /* Frameworks */,
@@ -84,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = WebDisplayEngine;
+			name = "威士忌社區";
 			productName = WebDisplayEngine;
-			productReference = EC7BE1DB25C3E45200A12DE9 /* WebDisplayEngine.app */;
+			productReference = EC7BE1DB25C3E45200A12DE9 /* 威士忌社區.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EC7BE1D625C3E45100A12DE9 /* Build configuration list for PBXProject "WebDisplayEngine" */;
+			buildConfigurationList = EC7BE1D625C3E45100A12DE9 /* Build configuration list for PBXProject "WoodCask" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC7BE1DA25C3E45100A12DE9 /* WebDisplayEngine */,
+				EC7BE1DA25C3E45100A12DE9 /* 威士忌社區 */,
 			);
 		};
 /* End PBXProject section */
@@ -218,7 +218,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -273,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,16 +290,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WebDisplayEngine/WebDisplayEngine.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 126;
+				CURRENT_PROJECT_VERSION = 203;
 				DEVELOPMENT_TEAM = SED69PSTK5;
 				INFOPLIST_FILE = WebDisplayEngine/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.EasonTek.wde;
+				MARKETING_VERSION = 1.2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.WoodCask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,16 +314,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WebDisplayEngine/WebDisplayEngine.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 126;
+				CURRENT_PROJECT_VERSION = 203;
 				DEVELOPMENT_TEAM = SED69PSTK5;
 				INFOPLIST_FILE = WebDisplayEngine/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.EasonTek.wde;
+				MARKETING_VERSION = 1.2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasonsTekDevelopment.WoodCask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,7 +334,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC7BE1D625C3E45100A12DE9 /* Build configuration list for PBXProject "WebDisplayEngine" */ = {
+		EC7BE1D625C3E45100A12DE9 /* Build configuration list for PBXProject "WoodCask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC7BE1ED25C3E45400A12DE9 /* Debug */,
@@ -343,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC7BE1EF25C3E45400A12DE9 /* Build configuration list for PBXNativeTarget "WebDisplayEngine" */ = {
+		EC7BE1EF25C3E45400A12DE9 /* Build configuration list for PBXNativeTarget "威士忌社區" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC7BE1F025C3E45400A12DE9 /* Debug */,

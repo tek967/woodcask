@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let url = URL(string: "https://www.google.com/") {
+        if let url = URL(string: "https://woodcask.com/") {
             let request = URLRequest(url: url)
             webView.load(request)
             webView.allowsBackForwardNavigationGestures = true
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath == "estimatedProgress" {
             loadingStatus = Float(webView.estimatedProgress)
-            if loadingStatus < 0.8 {
+            if loadingStatus < 0.85 {
                 progressLabel.isHidden = false
                 progressSpinner.isHidden = false
                 progressSpinner.startAnimating()
@@ -48,7 +48,7 @@ class ViewController: UIViewController {
                 } else if toggleState == false {
                     webView.isHidden = false
                 }
-            } else if loadingStatus > 0.8 {
+            } else if loadingStatus > 0.85 {
                 if toggleState == true {
                     webView.isHidden = false
                     progressSpinner.stopAnimating()

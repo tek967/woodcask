@@ -83,7 +83,6 @@
     <dict>
         <key>NSExceptionDomains</key>
         <dict>
-            <key>xflymusic.com</key>
             <key>woodcask.com</key>
             <dict>
                 <key>NSIncludesSubdomains</key>

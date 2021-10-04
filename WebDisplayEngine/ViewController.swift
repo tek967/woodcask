@@ -7,13 +7,15 @@
 
 import UIKit
 import WebKit
+import Darwin
+
 class ViewController: UIViewController {
     var loadingStatus:Float = 0.0
     @IBOutlet weak var webView: WKWebView!
     @IBOutlet weak var progressSpinner: UIActivityIndicatorView!
     @IBOutlet weak var progressLabel: UILabel!
-    var toggleState:Bool = true
-    
+    var toggleState:Bool = false
+    @IBOutlet weak var noLabel: UILabel!
     @IBAction func toggler(_ sender: UISwitch) {
         if toggleState == false{
             toggleState = true
@@ -23,10 +25,33 @@ class ViewController: UIViewController {
             print("no")
         }
     }
+    @IBAction func reloadButton(_ sender: Any) {
+        webView.reload()
+    }
+    @IBAction func previousButton(_ sender: Any) {
+        if webView.canGoBack == true {
+            webView.goBack()
+        } else {
+            noLabel.isHidden = false
+            sleep(1)
+            noLabel.isHidden = true
+
+        }
+    }
+    @IBAction func forwardButton(_ sender: Any) {
+        if webView.canGoForward == true {
+            webView.goForward()
+        } else {
+            noLabel.isHidden = false
+            sleep(1)
+            noLabel.isHidden = true
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let url = URL(string: "https://woodcask.com/") {
+        if let url = URL(string: "https://xflymusic.com/weishijisheqvredirectforwde/index.html") {
+            noLabel.isHidden = true
             let request = URLRequest(url: url)
             webView.load(request)
             webView.allowsBackForwardNavigationGestures = true
